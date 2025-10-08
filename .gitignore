@@ -86,3 +86,6 @@ config.json
 # Logs
 *.log
 logs/
+
+# Other crap
+.qodo
