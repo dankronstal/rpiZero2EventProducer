@@ -1,0 +1,15 @@
+{
+  "@context": "dtmi:dtdl:context;2",
+  "@id": "dtmi:example:Extractor;1",
+  "@type": "Interface",
+  "@extends": ["dtmi:example:Equipment;1"],
+  "displayName": "Extractor",
+  "contents": [
+    {
+      "@type": "Relationship",
+      "name": "feedsIntoConveyor",
+      "target": "dtmi:example:Conveyor;1",
+      "properties": []
+    }
+  ]
+}

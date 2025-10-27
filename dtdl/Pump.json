@@ -1,0 +1,15 @@
+{
+  "@context": "dtmi:dtdl:context;2",
+  "@id": "dtmi:example:Pump;1",
+  "@type": "Interface",
+  "@extends": ["dtmi:example:Equipment;1"],
+  "displayName": "Pump",
+  "contents": [
+    {
+      "@type": "Relationship",
+      "name": "feedsIntoProcessor",
+      "target": "dtmi:example:Processor;1",
+      "properties": []
+    }
+  ]
+}

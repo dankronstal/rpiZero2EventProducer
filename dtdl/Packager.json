@@ -1,0 +1,8 @@
+{
+  "@context": "dtmi:dtdl:context;2",
+  "@id": "dtmi:example:Packager;1",
+  "@type": "Interface",
+  "@extends": ["dtmi:example:Equipment;1"],
+  "displayName": "Packager",
+  "contents": []
+}

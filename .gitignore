@@ -76,7 +76,6 @@ dmypy.json
 Thumbs.db
 
 # VS Code settings
-.vscode/
 
 # Local config & secrets
 config.json
