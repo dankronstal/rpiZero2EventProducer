@@ -2,14 +2,24 @@
   "@context": "dtmi:dtdl:context;2",
   "@id": "dtmi:example:Compressor;1",
   "@type": "Interface",
-  "@extends": ["dtmi:example:Equipment;1"],
   "displayName": "Compressor",
   "contents": [
     {
       "@type": "Relationship",
       "name": "feedsIntoPump",
-      "target": "dtmi:example:Pump;1",
-      "properties": []
+      "target": "dtmi:example:Pump;1"
+    },
+    {
+      "@type": "Property",
+      "name": "tagValue",
+      "schema": "double",
+      "displayName": "Tag Value"
+    },
+    {
+      "@type": "Property",
+      "name": "tagTimestamp",
+      "schema": "dateTime",
+      "displayName": "Tag Timestamp"
     }
   ]
 }

@@ -2,7 +2,18 @@
   "@context": "dtmi:dtdl:context;2",
   "@id": "dtmi:example:Packager;1",
   "@type": "Interface",
-  "@extends": ["dtmi:example:Equipment;1"],
   "displayName": "Packager",
-  "contents": []
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "tagValue",
+      "schema": "double",
+      "displayName": "Tag Value"
+    },
+    {
+      "@type": "Property",
+      "name": "tagTimestamp",
+      "schema": "dateTime",
+      "displayName": "Tag Timestamp"
+    }]
 }
