@@ -23,7 +23,7 @@ TAGS = {
     "compressor_01": {"value": 5.0, "max": 10.0, "change_pct": 0.35, "min_change_base": 0.1, "trend": 1, "trend_strength": 0.5},
     "conveyor_01": {"value": 0.0, "max": 1000.0, "change_pct": 0.05, "min_change_base": 5.0, "trend": 1, "trend_strength": 0.8},
     "processor_01": {"value": 10.0, "max": 100.0, "change_pct": 0.15, "min_change_base": 1.0, "trend": 1, "trend_strength": 0.6},
-    "packager_01": {"value": 0.1, "max": 1.0, "change_pct": 0.05, "min_change_base": 0.01, "trend": 1, "trend_strength": 0.5},
+    "packager_01": {"value": 0.1, "max": 1.0, "change_pct": 0.05, "min_change_base": 0.1, "trend": 1, "trend_strength": 0.5},
 }
 
 EXTRACTOR_TAGS = ["extractor_01", "extractor_02", "extractor_03"]
